@@ -1,4 +1,4 @@
-const HTML = `
+const HEADER = `
     <header>
         <h1 class="header-title comfortaa-medium">Cogmaze</h1>
         <h2 class="header-2 comfortaa-light">- PUBLISHING -</h2>
@@ -25,7 +25,7 @@ const HTML = `
 
 class Header extends HTMLElement {
     connectedCallback() {
-        this.innerHTML = HTML;
+        this.innerHTML = HEADER;
     }
 }
 
