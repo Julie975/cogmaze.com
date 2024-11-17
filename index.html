@@ -8,82 +8,68 @@
     <link rel="stylesheet" href="styles/poppins.css">
     <link rel="stylesheet" href="styles/comfortaa.css">
 
-    <script src="scripts/header.js"></script>
-    <script src="scripts/footer.js"></script>
+    <!-- Custom Elements -->
+    <script src="scripts/elements.js" type="module"></script>
 
     <!-- Load Favicon -->
     <script src="scripts/favicon.js"></script>
-    <favicon-element />
+    <favicon-element></favicon-element>
     <!--              -->
     <link rel="icon" type="image/x-icon" href="/icon/favicon.ico">
 </head>
 
 <body class="poppins-regular">
-    <header-element />
+    <header-element></header-element>
+
+    <section class="about-section">
+        <p>
+
+            At Cogmaze Publishing, we celebrate the richness of our differences, including neurodiversity, by offering a
+            diverse selection of inclusive books that inspire and enlighten young readers through the characters they
+            encounter.
+
+        </p>
+
+        <h4>Inclusive Books for Children</h4>
+
+        <p>
+
+            Our collection of books feature diverse characters and storylines that celebrate neurodiversity and other
+            differences, encouraging children to embrace their unique traits. Our books offer valuable insights into
+            different ways of thinking, feeling, communicating and behaving, helping children to understand themselves
+            and others better.
+
+        </p>
+    </section>
 
     <section class="content-wrapper">
         <section class="content">
             <div class="grid">
-                <div class="grid-item">
-                    <a
-                        href="https://juliealisonmcdonald.square.site/product/oscar-finds-the-treasure-pre-order-now/31?si=true">
-                        <img class="book-image" src="assets/books/oscar.png" />
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="https://juliealisonmcdonald.square.site/product/say-hello-to-hedgy/8?cs=true&cst=custom">
-                        <img class="book-image" src="assets/books/shth.png" />
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="https://juliealisonmcdonald.square.site/product/hedgy-starts-school/22?cs=true&cst=custom">
-                        <img class="book-image" src="assets/books/hss.png" />
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a
-                        href="https://juliealisonmcdonald.square.site/product/binkie-s-sparkling-surprises/1?cs=true&cst=custom">
-                        <img class="book-image" src="assets/books/bss.png" />
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a
-                        href="https://juliealisonmcdonald.square.site/product/binkie-s-great-egg-paint-off-/6?cs=true&cst=custom">
-                        <img class="book-image" src="assets/books/bgepo.png" />
-                    </a>
-                </div>
-
-                <div class="grid-item">
-                    <a href="https://juliealisonmcdonald.square.site/product/how-hattie-hears/24?cs=true&cst=custom">
-                        <img class="book-image" src="assets/books/hhh.png" />
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="https://juliealisonmcdonald.square.site/product/the-little-cat/28?si=true">
-                        <img class="book-image" src="assets/books/tlc.png" />
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="https://juliealisonmcdonald.square.site/product/tiny-kitten/30">
-                        <img class="book-image" src="assets/books/tk.png" />
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="https://juliealisonmcdonald.square.site/product/making-friends/29">
-                        <img class="book-image" src="assets/books/mf.png" />
-                    </a>
-                </div>
-                <div class="grid-item">
-                    <a href="https://juliealisonmcdonald.square.site/product/dreaming-of-breathing/32">
-                        <img class="book-image" src="assets/books/dreaming3.png" />
-                    </a>
-                </div>
-
+                <book-element image="assets/books/oscar.png"
+                    link="https://juliealisonmcdonald.square.site/product/oscar-finds-the-treasure-pre-order-now/31?si=true"></book-element>
+                <book-element image="assets/books/shth.png"
+                    link="https://juliealisonmcdonald.square.site/product/say-hello-to-hedgy/8?cs=true&cst=custom"></book-element>
+                <book-element image="assets/books/hss.png"
+                    link="https://juliealisonmcdonald.square.site/product/hedgy-starts-school/22?cs=true&cst=custom"></book-element>
+                <book-element image="assets/books/bss.png"
+                    link="https://juliealisonmcdonald.square.site/product/binkie-s-sparkling-surprises/1?cs=true&cst=custom"></book-element>
+                <book-element image="assets/books/bgepo.png"
+                    link="https://juliealisonmcdonald.square.site/product/binkie-s-great-egg-paint-off-/6?cs=true&cst=custom"></book-element>
+                <book-element image="assets/books/hhh.png"
+                    link="https://juliealisonmcdonald.square.site/product/how-hattie-hears/24?cs=true&cst=custom"></book-element>
+                <book-element image="assets/books/tlc.png"
+                    link="https://juliealisonmcdonald.square.site/product/the-little-cat/28?si=true"></book-element>
+                <book-element image="assets/books/tk.png"
+                    link="https://juliealisonmcdonald.square.site/product/tiny-kitten/30"></book-element>
+                <book-element image="assets/books/mf.png"
+                    link="https://juliealisonmcdonald.square.site/product/making-friends/29"></book-element>
+                <book-element image="assets/books/dreaming3.png"
+                    link="https://juliealisonmcdonald.square.site/product/dreaming-of-breathing/32"></book-element>
             </div>
         </section>
     </section>
 
-    <footer-element />
+    <footer-element></footer-element>
 </body>
 
 </html>

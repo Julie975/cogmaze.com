@@ -1,4 +1,4 @@
-const FOOTER = `
+export default `
     <footer>
         <div>
             <p>
@@ -15,11 +15,3 @@ const FOOTER = `
         </div>
     </footer>
 `;
-
-class Footer extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = FOOTER;
-    }
-}
-
-customElements.define("footer-element", Footer);

@@ -91,15 +91,15 @@ a {
     gap: 20px;
 }
 
-@media (min-width: 975px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
 @media (min-width: 700px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 975px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 

@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="styles/poppins.css">
     <link rel="stylesheet" href="styles/comfortaa.css">
 
-    <script src="scripts/header.js"></script>
-    <script src="scripts/footer.js"></script>
+    <!-- Custom Elements -->
+    <script src="scripts/elements.js" type="module"></script>
+
+    <!-- Load Favicon -->
+    <script src="scripts/favicon.js"></script>
+    <favicon-element></favicon-element>
+    <!--              -->
+    <link rel="icon" type="image/x-icon" href="/icon/favicon.ico">
 </head>
 
 <body class="poppins-regular body-about">
-    <header-element />
+    <header-element></header-element>
 
     <section class="about-section">
         <p>Anna and Julie instantly became friends when they first met through their books
@@ -46,7 +52,7 @@
         </p>
     </section>
 
-    <footer-element />
+    <footer-element></footer-element>
 </body>
 
 </html>

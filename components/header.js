@@ -1,4 +1,4 @@
-const HEADER = `
+export default `
     <header>
         <h1 class="header-title comfortaa-medium">Cogmaze</h1>
         <h2 class="header-2 comfortaa-light">- PUBLISHING -</h2>
@@ -22,11 +22,3 @@ const HEADER = `
         </ul>
     </header>
 `;
-
-class Header extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = HEADER;
-    }
-}
-
-customElements.define("header-element", Header);
