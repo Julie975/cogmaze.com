@@ -20,3 +20,9 @@ default_element(Footer, "footer");
 // Custom elements
 import Book from "../components/book.js";
 define_element(Book, "book");
+
+import Bold from "../components/bold.js";
+define_element(Bold, "bold");
+
+import Italic from "../components/italic.js";
+define_element(Italic, "italic");
